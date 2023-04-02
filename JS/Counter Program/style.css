@@ -1,0 +1,22 @@
+#count {
+   display: block;
+   text-align: center;
+   font-size: 50px;
+}
+#decrement {
+   font-size: 50px;
+}
+#reset {
+   font-size: 50px;
+}
+#increment {
+   font-size: 50px;
+}
+
+/*
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 50px;
+}
+*/
