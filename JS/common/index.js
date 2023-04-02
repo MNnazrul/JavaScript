@@ -319,7 +319,7 @@ greeting('Naz');
 //    return x / y * 100;
 // }
 const percent = (x, y) => x/y*100;
-console.log(`${percent(85.5, 100)}`)
+console.log(`${percent(85.5, 100)}%`)
 
 
 
