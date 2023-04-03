@@ -309,21 +309,44 @@ console.log(...class1);
 // 46th
 
 // for one parameter
-const greeting = username => console.log(`Hello ${username}`);
-greeting('Naz');
+// const greeting = username => console.log(`Hello ${username}`);
+// greeting('Naz');
 
-// multiple parameter
+// // multiple parameter
 
 
-// const percent = function(x, y) {
-//    return x / y * 100;
+// // const percent = function(x, y) {
+// //    return x / y * 100;
+// // }
+// const percent = (x, y) => x/y*100;
+// console.log(`${percent(85.5, 100)}%`)
+
+
+//---------------------------------------------------------------
+
+//47th..
+// array suffle.
+
+// let cards = ["A", "B", "C", "4", "2", "34", "14"];
+
+// suffle(cards)
+
+// // console.log(cards);
+// cards.forEach(card => console.log(card))
+
+// function suffle(array) {
+//    let curId = array.length - 1;
+//    while(curId >= 0) {
+//       let randomId = Math.floor(Math.random() * array.length); 
+//       let temp = array[curId];
+//       array[curId] = array[randomId];
+//       array[randomId] = temp;
+//       curId--;
+//    }
 // }
-const percent = (x, y) => x/y*100;
-console.log(`${percent(85.5, 100)}%`)
 
 
-
-
+//----------------------------------------------------------------
 
 
 
