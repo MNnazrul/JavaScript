@@ -374,6 +374,28 @@ console.log(...class1);
 
 //----------------------------------------------------
 
+//49th
+
+// closure =  A function with preserved and private data.
+// Give you access to an outer function’s scope,
+// from an inner function.
+
+//-----------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
