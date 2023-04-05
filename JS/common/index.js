@@ -513,11 +513,29 @@ console.log(...class1);
 // properties: useful for caches, fixed-configuration
 // methods:    useful for utility functions
 
+class Car {
+   static numberOfCars = 0;
+   constructor(model) {
+      this.model = model;
+      Car.numberOfCars += 1;
+   }
+}
+
+const car1 = new Car("Lambo");
+const car2 = new Car("BMW");
+console.log(`You have ${Car.numberOfCars} cars`);
+
+const car3 = new Car("Ferrari")
+
+console.log(`You have ${Car.numberOfCars} cars`);
 
 
+//--------------------------------------------------
 
+// 56th
 
-
+// inheritance = a child class can inherit all the 
+// methods and properties from another class
 
 
 
