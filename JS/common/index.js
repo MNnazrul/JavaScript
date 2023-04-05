@@ -384,22 +384,134 @@ console.log(...class1);
 
 
 
+//50th.
+
+// Map = object that holds key-value pairs of any data type
+
+// const store = new Map([
+//    ["t-shirt", 20],
+//    ["jeans", 30],
+//    ["socks", 10],
+//    ["underwear", 50]
+// ]);
+
+// store.set("hat", 50);
+// console.log(store.get("t-shirt"));
+// store.delete("hat");
+// console.log(store.has("hat"));
+// console.log(store.size);
+
+// store.forEach((value, key) => console.log(`${key} $${value}`))
 
 
+//-----------------------------------------------------------
+
+// 51th
+// object = A group of properties and methods
+// properties = what an object has
+// methods = what an object can do
+// use . to access properties/methods
+
+// const car = {
+//    model : "Mustang",
+//    color : "Red",
+//    year : 2023,
+
+//    drive : function() {
+//       console.log("You Drive the car");
+//    },
+//    brake : function() {
+//       console.log("You step on the brake");
+//    }
+// }
+
+// console.log(car.model);
+// console.log(car.color);
+// console.log(car.year);
+
+//-----------------------------------------
+
+//52th
+
+// this  = reference to a particular object 
+// the object depends on the immediate context
+
+// const car1 = {
+//    model : "Mustang",
+//    color : "Red",
+//    year : 2023,
+   
+//    drive : function() {
+//       console.log(`You drive ${this.model}`);
+//    }
+// }
+// const car2 = {
+//    model : "BMW",
+//    drive : function() {
+//       console.log(`You drive ${this.model}`);
+//    }
+// }
+
+// car1.drive();
+// car2.drive();
+
+//------------------------------------------
+
+//53th
+
+// class = a blueprint for creating objects 
+// define what properties and methods they have use
+// a constructor for unique properties.
 
 
+// class Player {
+//    score = 0;
+//    pause(){
+//       console.log(`You pause the game`);
+//    }
+//    exit() {
+//       console.log(`You exited the game`);
+//    }
+// }
 
+// const player1 = new Player();
+// player1.score += 1;
+// console.log(player1.score);
 
+// const player2 = new Player();
+// player2.score = 5;
+// console.log(player2.score);
 
+//-------------------------------------------------
+// 54th
 
+// constructor = a special method of a class,
+// accepts arguments and assigns properties
 
+// no need to declare variable within class if you 
+// use constructor.
 
+// class student {
+//    constructor(name, age, gpa) {
+//       this.name = name;
+//       this.age = age;
+//       this.gpa = gpa;
+//    }
+//    study() {
+//       console.log(`${this.name} is studying`);
+//    }
+// }
 
+// const student1 = new student("Bob", 21, 3.5);
+// console.log(student1.name);
 
+//------------------------------------------------
 
+// 55th
 
-
-
+// static = belongs to the class, not the objects
+// properties: useful for caches, fixed-configuration
+// methods:    useful for utility functions
 
 
 
