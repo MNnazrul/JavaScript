@@ -513,21 +513,21 @@ console.log(...class1);
 // properties: useful for caches, fixed-configuration
 // methods:    useful for utility functions
 
-class Car {
-   static numberOfCars = 0;
-   constructor(model) {
-      this.model = model;
-      Car.numberOfCars += 1;
-   }
-}
+// class Car {
+//    static numberOfCars = 0;
+//    constructor(model) {
+//       this.model = model;
+//       Car.numberOfCars += 1;
+//    }
+// }
 
-const car1 = new Car("Lambo");
-const car2 = new Car("BMW");
-console.log(`You have ${Car.numberOfCars} cars`);
+// const car1 = new Car("Lambo");
+// const car2 = new Car("BMW");
+// console.log(`You have ${Car.numberOfCars} cars`);
 
-const car3 = new Car("Ferrari")
+// const car3 = new Car("Ferrari")
 
-console.log(`You have ${Car.numberOfCars} cars`);
+// console.log(`You have ${Car.numberOfCars} cars`);
 
 
 //--------------------------------------------------
@@ -536,6 +536,55 @@ console.log(`You have ${Car.numberOfCars} cars`);
 
 // inheritance = a child class can inherit all the 
 // methods and properties from another class
+
+
+// class Animal{
+//    alive = true;
+//    eat(){
+//        console.log(`This ${this.name} is eating`);
+//    }
+//    sleep(){
+//        console.log(`This ${this.name} is sleeping`);
+//    }
+// }
+
+// class Rabbit extends Animal{
+//    name = "rabbit";
+//    run(){
+//        console.log(`This ${this.name} is running`);
+//    }
+// }
+// class Fish extends Animal{
+//    name = "fish";
+//    swim(){
+//        console.log(`This ${this.name} is swimming`);
+//    }
+// }
+// class Hawk extends Animal{
+//    name = "hawk";
+//    fly(){
+//        console.log(`This ${this.name} is flying`);
+//    }
+// }
+
+// const rabbit = new Rabbit();
+// const fish = new Fish();
+// const hawk = new Hawk();
+
+// console.log(rabbit.alive);
+// rabbit.eat();
+// rabbit.sleep();
+// rabbit.run();
+
+
+//--------------------------------------------------------
+
+
+
+
+
+
+
 
 
 
