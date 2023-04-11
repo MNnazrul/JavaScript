@@ -537,7 +537,6 @@ console.log(...class1);
 // inheritance = a child class can inherit all the 
 // methods and properties from another class
 
-
 // class Animal{
 //    alive = true;
 //    eat(){
@@ -578,6 +577,171 @@ console.log(...class1);
 
 
 //--------------------------------------------------------
+
+// 57th
+
+// super = Refers to the parent class. 
+// Commonly used to invoke constructor of a parent class
+
+// class Animal{
+//    constructor(name, age){
+//        this.name = name;
+//        this.age = age;
+//    }
+// }
+// class Rabbit extends Animal{
+//    constructor(name, age, runSpeed){
+//        super(name, age);
+//        this.runSpeed = runSpeed;
+//    }
+// }
+// class Fish extends Animal{
+//    constructor(name, age, swimSpeed){
+//        super(name, age);
+//        this.swimSpeed = swimSpeed;
+//    }
+// }
+// class Hawk extends Animal{
+//    constructor(name, age, flySpeed){
+//        super(name, age);
+//        this.flySpeed = flySpeed;
+//    }
+// }
+
+// const rabbit = new Rabbit("rabbit", 1, 40);
+// const fish = new Fish("fish", 2, 80);
+// const hawk = new Hawk("hawk", 3, 200);
+
+// console.log(rabbit.name);
+// console.log(rabbit.age);
+// console.log(rabbit.runSpeed);
+
+//------------------------------------------------------
+
+//58th..
+
+// get = binds an object property to a function 
+//          when that property is accessed
+// set = binds an object property to a function
+//          when that property is assigned a value
+
+// class Car{
+//     constructor(power){
+//         this._gas = 25;
+//         this._power = power;
+//     }
+//     get power(){
+//         return `${this._power}hp`;
+//     }
+//     get gas(){
+//         return `${this._gas}L (${this._gas / 50 * 100}%)`;
+//     }
+//     set gas(value){
+//         if(value > 50){
+//             value = 50;
+//         }
+//         else if(value < 0){
+//             value = 0;
+//         }
+//         this._gas = value;
+//     }
+// }
+
+// let car = new Car(400);
+
+// car.gas = 100;
+
+// console.log(car.power);
+// console.log(car.gas);
+//-------------------------------------------------
+
+//59th..
+// objects as arguments..
+
+
+// class Car {
+//    constructor(model, year, color) {
+//       this.model = model;
+//       this.year = year;
+//       this.color = color;
+//    }
+// }
+
+// const car1 = new Car("BMW", 2021, "red");
+// const car2 = new Car("Lambo", 2022, "white");
+
+// changeColor(car2, "blue");
+
+// displayInfo(car2);
+
+// function displayInfo(car) {
+//    console.log(car.model);
+//    console.log(car.year);
+//    console.log(car.color);
+// }
+
+// function changeColor(car, clr) {
+//    car.color = clr;
+// }
+
+//--------------------------------------------
+
+// 60th.
+
+// array of a objects.
+
+// class Car {
+//    constructor(model, year, color) {
+//       this.model = model;
+//       this.year = year;
+//       this.color = color;
+//    }
+//    drive() {
+//       console.log(`You are driving ${this.model}`);
+//    }
+// }
+
+// const car1 = new Car("BMW", 2021, "red");
+// const car2 = new Car("Lambo", 2022, "white");
+// const car3 = new Car("Mustang", 2023, "green");
+
+// const cars = [car1, car2, car3];
+// console.log(cars[0].model);
+
+// cars[0].drive();
+// cars[1].drive();
+// cars[2].drive();
+
+//--------------------------------------------
+
+// 61th.
+// anonymous objects = sobjects without a name
+//                   not directly referenced.
+//  less syntax. No need for unique names.
+
+// class Card {
+//    constructor(value, suit) {
+//       this.value = value;
+//       this.suit = suit;
+//    }
+// }
+
+// let card1 = new Card("A", "Hears");
+// let card2 = new Card("A", "Spades");
+
+// let cards = [new Card("A", "Diamond")];
+// console.log(cards[0].value);
+
+//---------------------------------------------
+
+
+
+
+
+
+
+
+
 
 
 
