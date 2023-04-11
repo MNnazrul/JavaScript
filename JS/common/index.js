@@ -734,17 +734,73 @@ console.log(...class1);
 
 //---------------------------------------------
 
+//62th.
 
+// error = object with a description of 
+// something went wrong.
+// throw = executes a user defined error.
 
+// try {
+//    let x = window.prompt("Enter a number");
+//    x = Number(x);
+//    if(isNaN(x)) throw "That wasn't a number";
+//    if(x == "") throw "That was empty!";
+//    console.log(`${x} is a number`);
+// }
+// catch(error) {
+//    console.log(error);
+// }
+// finally {
+//    console.log("This always executes");
+// }
 
+//------------------------------------------------
 
+// 63th..
 
+// setTimeout() = invokes a function after a number of milliseconds            
+// asynchronous function (doesn't pause execution) 
 
+// let timer1 = setTimeout(firstMessage, 3000);
+// let timer2 = setTimeout(secondMessage, 6000);
+// let timer3 = setTimeout(thirdMessage, 9000);
 
+// clearTimeout(timer1);
 
+// function firstMessage() {
+//    alert(`Buy this course for free`);
+// }
+// function secondMessage() {
+//    alert("This is not a scam");
+// }
+// function thirdMessage() {
+//    alert("DO IT NOW");
+// }
 
+//----------------------------------------------------
 
+// 64th.
 
+// setInterval() = invokes a function 
+//          repeatedly after no. of milliseconds
+// asynchronous function (doesn't pause execution)
+
+// let count = 0;
+// let max = window.prompt("Count up to what #");
+// max = Number(max);
+
+// const timer = setInterval(countUP, 1000);
+// function countUP() {
+//    count += 1;
+//    console.log(count);
+//    if(count == max) {
+//       clearInterval(timer);
+//    }
+// }
+
+//--------------------------------------------------
+
+// 65th.
 
 
 
