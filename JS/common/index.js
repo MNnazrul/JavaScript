@@ -800,11 +800,21 @@ console.log(...class1);
 
 //--------------------------------------------------
 
-// 65th.
+// 65th, 66th.
 
+// The Date object is used to work with dates & time.
 
+// date = date.toLocaleString();
 
+// const label = document.getElementById("65th");
+// setInterval(update, 1000);
+// function update() {
+//    let date = new Date();
+//    date = date.toLocaleString();
+//    label.innerHTML = date;
+// }
 
+//--------------------------------------------------
 
 
 
