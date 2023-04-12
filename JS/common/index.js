@@ -816,6 +816,71 @@ console.log(...class1);
 
 //--------------------------------------------------
 
+// 67th.
+
+// synchronous code = In an ordered sequence.
+//                                      Step-by-step linear instructions
+//                                     (start now, finish now)
+ 
+// asynchronous code = Out of sequence.
+//                     Ex. Access a database
+//                            Fetch a file
+//                            Tasks that take time
+//                     (start now, finish sometime later)
+
+// console.log("start");
+// setTimeout(()=> console.log("this is asyn"), 5000);
+// console.log("end");
+
+//------------------------------------------------------
+
+// 68th.
+
+// console.time() = starts a timer you can use to 
+// track how long an operation takes 
+// give each timer a unique name
+
+// console.time("Response time");
+
+// alert("CLICK THE OK BUTTON!!")
+
+// console.timeEnd("Response time");
+
+//-------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
