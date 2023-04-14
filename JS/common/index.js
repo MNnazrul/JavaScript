@@ -849,12 +849,25 @@ console.log(...class1);
 //-------------------------------------------------------
 
 
+// 73th
+
+// DOM  = Document Oject Model (API)
+// application programming interface.
+//  an interface for changing the content of a page.
+
+// console.log(document);
+// console.dir(document); // show properties of the documents.
+// console.log(document.title);
+// console.log(document.URL);
+
+// document.title = "new title";
+// document.location = "http://www.google.com";
+
+// document.body.style.backgroundColor = "grey";
+// document.getElementById('myDiv').innerHTML = "HELLO";
 
 
-
-
-
-
+//---------------------------------------------------
 
 
 
